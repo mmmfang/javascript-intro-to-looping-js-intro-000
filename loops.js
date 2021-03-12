@@ -21,14 +21,13 @@ function forLoop(array) {
 
 
   function doWhileLoop(int) {
-    let i = 0;
-    do
-      {
+     let i = 0;
         function incrementVariable(i) {
           i = i + 1;
           return i;
       }
-      console.log("I run once regardless.");
+      do
+        {console.log("I run once regardless.");
     }
       while (incrementVariable() < int);
   }
