@@ -17,17 +17,14 @@ function forLoop(array) {
    return "done";
   }
 
-
-
-
-  function doWhileLoop(int) {
-     let i = 0;
-        function incrementVariable(i) {
-          i = i + 1;
-          return i;
-      }
-      do
-        {console.log("I run once regardless.");
+function doWhileLoop(int) {
+   let i = 0;
+   function incrementVariable(i) {
+      i = i + 1;
+      return i;
     }
-      while (incrementVariable() < int);
-  }
+    do{
+      console.log("I run once regardless.")
+    }
+    while (incrementVariable() < int);
+}
