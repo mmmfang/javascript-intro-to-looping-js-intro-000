@@ -22,7 +22,7 @@ function forLoop(array) {
 
   function doWhileLoop(int) {
     do
-      {
+      {let i = 1;
         function incrementVariable(i) {
           i = i + 1;
           return i;
